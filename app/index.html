@@ -30,8 +30,8 @@
 
 		/*testing grid*/
 		.row div {
-			background: #ccc;
-			border: 1px solid;
+			/*background: #ccc;*/
+			/*border: 1px solid;*/
 		}
 	</style>
 
@@ -43,18 +43,29 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-					LOGO
+					<div class="c-header__block">
+						<img class="c-header__block__logo img-responsive" src="img/logo.png" alt="">
+					</div>
 				</div>
 				<div class="col-lg-2 col-md-3 col-sm-3 hidden-xs">
-					Интернет-магазин
-					строительных
-					материалов №1
+					<div class="c-header__block">
+						Интернет-магазин
+						строительных
+						материалов №1
+					</div>
 				</div>
 				<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
-					Режим работы
+					<div class="c-header__block">
+						<i class="icon clock"></i>
+						<span class="c-header__block__title">Режим работы</span>
+						Пн.- Пт.  9.00 - 18.00
+						Сб. - Вс. <span class="c-header__block_normal">Выходной</span>
+					</div>
 				</div>
-				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-8">
-					телефоны, соц сети
+				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-8 c-header_right">
+					<div class="c-header__block">
+						телефоны, соц сети
+					</div>
 				</div>
 			</div>
 		</div>

@@ -45,14 +45,53 @@ body
 	font-family: $default-font
 	overflow-x: hidden
 	opacity: 1
+	color: #000
+
+.icon
+	display: inline-block
 
 .img-responsive
 	display: block
 	max-width: 100%
 	height: auto
 
+.c-header
+	padding: 25px 0
+	background-color: $main
+	font: 100 19px SegoeUI
+
+.c-header .row > div:not(:last-child)
+	border-right: 2px solid $accent
+
+.c-header__block
+	font-size: 18px
+
+.c-header__block__title
+
+	background-size: 21px
+	font: bold 18px SegoeUI
+	border-bottom: 2px dotted $accent
+
+
+.c-header__block .icon.clock
+	width: 21px
+	height: 21px
+	background: url('/img/clock_header.svg') no-repeat left bottom
+	background-size: cover
+
+.c-header__block_normal
+	font-weight: normal
+
+.c-header__block__logo
+	width: 186px
+	padding-top: 3px
+
+.c-header_right
+	text-align: right
+
 .c-main
 	min-height: 600px
+
 
 
 
