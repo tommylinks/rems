@@ -47,8 +47,21 @@ body
 	opacity: 1
 	color: #000
 
+a
+	color: #000
+
+li
+	list-style-type: none
+
+a:hover, a:focus
+	color: #000
+	text-decoration: none
+
 .icon
 	display: inline-block
+
+.align-top
+	vertical-align: top
 
 .img-responsive
 	display: block
@@ -60,25 +73,6 @@ body
 	background-color: $main
 	font: 100 19px SegoeUI
 
-.c-header .row > div:not(:last-child)
-	border-right: 2px solid $accent
-
-.c-header__block
-	font-size: 18px
-
-.c-header__block__title
-
-	background-size: 21px
-	font: bold 18px SegoeUI
-	border-bottom: 2px dotted $accent
-
-
-.c-header__block .icon.clock
-	width: 21px
-	height: 21px
-	background: url('/img/clock_header.svg') no-repeat left bottom
-	background-size: cover
-
 .c-header__block_normal
 	font-weight: normal
 
@@ -89,8 +83,155 @@ body
 .c-header_right
 	text-align: right
 
+.c-header .row > div:not(:last-child)
+	border-right: 2px solid $accent
+
+.c-header__block_inline
+	position: relative
+	display: inline-block
+
+.c-header__block_inline:not(:last-child)
+	margin-right: 20px
+
+.c-header__block
+	position: relative
+	font-size: 18px
+
+.c-header__block_top
+	margin-bottom: 15px
+
+.c-header__block__link
+	display: block
+
+.c-header__block__link.icon.clock
+	background: url('/img/clock_header.svg') no-repeat left bottom
+	background-size: 21px
+
+.c-header__block__link.icon.question
+	background: url('/img/question_header.svg') no-repeat left bottom
+	background-size: 21px
+
+.c-header__block__link.icon.earth
+	background: url('/img/earth.svg') no-repeat left bottom
+	background-size: 21px
+
+.c-header__block__link.icon.auth
+	background: url('/img/auth_header.svg') no-repeat left bottom
+	background-size: 21px
+
+.c-header__block__phone .align-top
+	vertical-align: top
+
+.c-header__block__phone.icon.kyivstar
+	background: url('/img/ks_logo_header.svg') no-repeat left center
+	background-size: 30px
+
+.c-header__block__title
+	margin-left: 28px
+	font: bold 18px SegoeUI
+	border-bottom: 2px dotted $accent
+
+.c-header__block__phone__title
+	position: relative
+	margin-left: 30px
+	font-size: 23px
+
+
+.c-header__block__phone__title:after
+	content: ''
+	position: absolute
+	right: -30px
+	top: 13px
+	width: 21px
+	height: 21px
+	background: url('/img/arrow_sm_header.svg') no-repeat
+
+
+.c-block__social_inline
+	margin: 0
+
+.c-block__social_inline li
+	display: inline-block
+
+.c-block__social_inline .icon.facebook
+	width: 35px
+	height: 35px
+	background: url('/img/fb_footer.svg') no-repeat
+	background-size: cover
+
+.c-block__social_inline .icon.google
+	width: 35px
+	height: 35px
+	background: url('/img/google+_footer.svg') no-repeat
+	background-size: cover
+
+.c-block__social_inline .icon.vk
+	width: 35px
+	height: 35px
+	background: url('/img/vk_footer.svg') no-repeat
+	background-size: cover
+
+.c-block__social_inline .icon.instagram
+	width: 35px
+	height: 35px
+	background: url('/img/instagram_footer.svg') no-repeat
+	background-size: cover
+
+
 .c-main
 	min-height: 600px
+
+.c-footer
+	background: $main
+
+
+.c-footer__top
+	padding: 20px 0
+
+.c-footer ul
+	padding: 0
+
+.c-footer__block__title
+	text-transform: uppercase
+	color: $accent
+	font: bold 22px SegoeUI
+
+
+.c-footer__block__list a, .c-footer__block__list span
+	font: 100 22px SegoeUI
+
+.c-footer__block__list .mailto
+	color: #009fe3
+	text-decoration: underline
+
+
+.c-footer__block__list .icon.kyivstar
+	padding: 10px 0 10px 40px
+	background: url('/img/ks_logo_header.svg') no-repeat left center
+	background-size: 35px
+
+.c-footer__block__list .icon.vodafon
+	padding: 10px 0 10px 40px
+	background: url('/img/Vodafone.svg') no-repeat left center
+	background-size: 35px
+
+.c-footer__block__list .icon.lifecell
+	padding: 10px 0 10px 40px
+	background: url('/img/lifecell.svg') no-repeat left center
+	background-size: 35px
+
+.c-footer__block__list .icon.marker
+	padding: 10px 0 10px 40px
+	background: url('/img/location-pointer.svg') no-repeat left 20px
+	background-size: 35px
+
+.c-footer__bottom
+	background: $main-dark
+	padding: 20px 0
+
+
+.c-footer__bottom .copyright
+	line-height: 18px
 
 
 
