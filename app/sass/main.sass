@@ -337,8 +337,60 @@ a:hover, a:focus
 // --------------   main	--------------------------
 .c-main
 	min-height: 600px
-	margin: 20px 0
 
+
+
+// --------------  sidebar	----
+.c-sidebar__menu
+	padding: 5px 0
+	background-color: $main
+	border-radius: 3px
+
+	li
+		padding: 5px 20px
+
+	li:not(:last-child)
+		border-bottom: 1px solid #fff
+
+	.c-sidebar__menu__item
+		font: 100 22px SegoeUI
+
+.c-sidebar__sale
+	margin-top: 30px
+
+.c-sidebar__sale__item
+	position: relative
+	border-radius: 3px
+	border: 1px solid $main-dark
+	padding: 50px 20px 20px 20px
+
+	.c-sidebar__sale__item__img
+		max-width: 160px
+		margin: 0 auto
+
+	.c-sidebar__sale__item__sticker
+		position: absolute
+		top: 10px
+		left: 0px
+		width: 100%
+		text-align: center
+		padding: 5px
+		background-color: #009fe3
+		color: #fff
+		font: 100 18px SegoeUI
+		text-transform: uppercase
+
+	.c-sidebar__sale__item__title
+		display: inline-block
+		font: 100 22px SegoeUI
+		margin-top: 10px
+
+// --------------  center	----
+
+.c-carousel .c-carousel__title
+	text-align: center
+	margin-top: 0
+	font: 100 36px SegoeUI
 
 	
 
@@ -349,6 +401,7 @@ a:hover, a:focus
 // --------------   footer	--------------------------
 .c-footer
 	background: $main
+	margin-top: 30px
 
 
 .c-footer__top
