@@ -39,68 +39,127 @@
 
 <body>
 
-	<header class="c-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-					<div class="c-header__block">
-						<img class="c-header__block__logo img-responsive" src="img/logo.png" alt="">
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-3 hidden-xs">
-					<div class="c-header__block">
-						Интернет-магазин
-						строительных
-						материалов №1
-					</div>
-				</div>
-				<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
-					<div class="c-header__block">
-						<a href="#" class="c-header__block__link icon clock">
-							<span class="c-header__block__title">Режим работы</span>
-						</a>
-						Пн.- Пт.  9.00 - 18.00
-						Сб. - Вс. <span class="c-header__block_normal">Выходной</span>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-8 c-header_right">
-					<div class="c-header__block">
-						<div class="c-header__block_top hidden-md hidden-sm hidden-xs">
-							<div class="c-header__block_inline">
-								<a href="#" class="c-header__block__link icon question">
-									<span class="c-header__block__title">Задать вопрос</span>
-								</a>
-							</div>
-							<div class="c-header__block_inline">
-								<a href="#" class="c-header__block__link icon earth">
-									<span class="c-header__block__title">Выбрать язык</span>
-								</a>
-							</div>
-							<div class="c-header__block_inline">
-								<a href="#" class="c-header__block__link icon auth">
-									<span class="c-header__block__title">Войти</span>
-								</a>
-							</div>
+	<header>
+		<div class="c-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+						<div class="c-header__block">
+							<img class="c-header__block__logo img-responsive" src="img/logo.png" alt="">
 						</div>
-						<div class="c-header__block_bottom">
-							<div class="c-header__block_inline align-top">
-								<a href="#" class="c-header__block__phone icon kyivstar ">
-									<span class="c-header__block__phone__title">+38(067)208-75-36</span>
-								</a>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-3 hidden-xs">
+						<div class="c-header__block">
+							Интернет-магазин
+							строительных
+							материалов №1
+						</div>
+					</div>
+					<div class="col-lg-2 visible-lg">
+						<div class="c-header__block">
+							<a href="#" class="c-header__block__link icon clock">
+								<span class="c-header__block__title">Режим работы</span>
+							</a>
+							Пн.- Пт.  9.00 - 18.00
+							Сб. - Вс. <span class="c-header__block_normal">Выходной</span>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-6 col-sm-6 col-xs-8 c-header_right">
+						<div class="c-header__block">
+							<div class="c-header__block_top hidden-md hidden-sm hidden-xs">
+								<div class="c-header__block_inline">
+									<a href="#" class="c-header__block__link icon question">
+										<span class="c-header__block__title">Задать вопрос</span>
+									</a>
+								</div>
+								<div class="c-header__block_inline">
+									<a href="#" class="c-header__block__link icon earth">
+										<span class="c-header__block__title">Выбрать язык</span>
+									</a>
+								</div>
+								<div class="c-header__block_inline">
+									<a href="#" class="c-header__block__link icon auth">
+										<span class="c-header__block__title">Войти</span>
+									</a>
+								</div>
 							</div>
-							<div class="c-header__block_inline hidden-md hidden-sm hidden-xs">
-								<ul class="c-block__social_inline">
-									<li><a href="#" class="icon facebook"></a></li>
-									<li><a href="#" class="icon google"></a></li>
-									<li><a href="#" class="icon vk"></a></li>
-									<li><a href="#" class="icon instagram"></a></li>
-								</ul>
+							<div class="c-header__block_bottom">
+								<div class="c-header__block_inline align-top">
+									<a href="#" class="c-header__block__phone icon kyivstar ">
+										<span class="c-header__block__phone__title">+38(067)208-75-36</span>
+									</a>
+								</div>
+								<div class="c-header__block_inline hidden-md hidden-sm hidden-xs">
+									<ul class="c-block__social_inline">
+										<li><a href="#" class="icon facebook"></a></li>
+										<li><a href="#" class="icon google"></a></li>
+										<li><a href="#" class="icon vk"></a></li>
+										<li><a href="#" class="icon instagram"></a></li>
+									</ul>
+								</div>
+								<div class="c-header__block_inline c-header__block__lang  hidden-lg hidden-xs">
+									<a href="#" class="c-header__block__lang_active">рус</a> | <a href="#">укр</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- END c-header-->
+		<div class="c-header-bottom visible-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<button class="c-header-bottom__cat-btn">КАТАЛОГ  ТОВАРОВ <i class="icon arrow"></i></button>
+					</div>
+					<div class="col-lg-6">
+						<div class="c-header-bottom__search">
+							<input class="c-header-bottom__search__input" type="text" placeholder="Искать...">
+							<button class="c-header-bottom__search__btn" type="submit">Поиск</button>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="c-header-bottom__cart clearfix">
+							<div class="c-header-bottom__cart_icon">
+								<i class="icon cart"></i>
+								<span class="c-header-bottom__cart_count">0</span>
+							</div>
+							<div class="c-header-bottom__cart_info">
+								<span class="c-header-bottom__cart_title">Моя корзина</span>
+								<span class="c-header-bottom__cart_desc">В корзине пусто</span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--END c-header-bottom-->
+		<div class="c-header-bottom-mobile hidden-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="pull-left">
+							<button class="c-header-bottom-mobile__cat-btn"><i class="icon menu"></i></button>
+							<span class="c-header-bottom-mobile__title hidden-xs">Каталог товаров</span>
+						</div>
+
+
+						<div class="c-header-bottom-mobile__controls pull-right">
+							<ul class="clearfix">
+								<li><a class="icon auth" href="javascript: void(0)"></a></li>
+								<li>
+									<a class="icon cart" href="javascript: void(0)">
+										<span class="c-header-bottom-mobile__controls_count">0</span>
+									</a>
+								</li>
+								<li><a class="icon question" href="javascript: void(0)"></a></li>
+								<li><a class="icon clock" href="javascript: void(0)"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--END c-header-bottom-mobile-->
 	</header>
 
 	<main class="c-main">

@@ -3,7 +3,7 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px)
+@media only screen and (max-width : 1199px)
 
   .c-header__block__logo
     width: 150px
@@ -14,9 +14,22 @@
   .c-header__block
     font-size: 16px
 
+  .c-header__block__phone
+    margin-top: 15px
+
+  .c-header__block__lang
+    margin: 10px 0 0 50px
+    font-size: 22px
+
+  .c-header__block__lang .c-header__block__lang_active
+    color: #009fe3
+    text-decoration: underline
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+
+  .c-header__block__lang
+    margin: 10px 0 0 15px
 
 
 /* Small Devices, Tablets */
@@ -26,7 +39,11 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
-	/**/
+  .c-header__block__phone__title
+    font-size: 20px
+
+  .c-header__block__phone
+    margin-top: 5px
 
 
 /* Custom, iPhone Retina */
@@ -54,9 +71,3 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
 	/**/
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px)
-	/**/
-
