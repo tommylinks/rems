@@ -385,6 +385,7 @@
     "grid.less",
     "responsive-utilities.less",
     "close.less",
+    "component-animations.less",
     "dropdowns.less",
     "tooltip.less",
     "modals.less"
@@ -392,7 +393,8 @@
   "js": [
     "dropdown.js",
     "modal.js",
-    "tooltip.js"
+    "tooltip.js",
+    "collapse.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=659e8fab94728b466ba44403308579d3"
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=6170c31a55c0524821e517942aa385de"
 }
