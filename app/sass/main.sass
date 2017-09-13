@@ -460,10 +460,24 @@ a:hover, a:focus
 .c-catalog-mobile .icon.down.up
   transform: rotate(180deg)
 
+.panel-group .panel
+	border-radius: 0px
+	background: #d8ccae
+
+.panel-default>.panel-heading
+	background: $main-dark
 
 
+.panel-group .panel+.panel
+	margin-top: 1px
+	border-color: $main-dark
 
+.panel-default
+	border-color: $main-dark
 
+.panel-default>.panel-heading+.panel-collapse>.panel-body
+	border: none
+	background: $main
 
 .c-seo.show-all
     height: 100%
