@@ -110,6 +110,7 @@
 				<div class="row">
 					<div class="col-lg-3">
 						<button class="c-header-bottom__cat-btn">КАТАЛОГ  ТОВАРОВ <i class="icon arrow"></i></button>
+						<menu style="display: none"></menu>
 					</div>
 					<div class="col-lg-6">
 						<div class="c-header-bottom__search">
@@ -127,7 +128,6 @@
 								<span class="c-header-bottom__cart_title">Моя корзина</span>
 								<span class="c-header-bottom__cart_desc">В корзине пусто</span>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -166,16 +166,17 @@
 			<div class="row">
 				<div class="col-lg-3 visible-lg">
 					<div class="c-sidebar">
-						<ul class="c-sidebar__menu">
-							<li><a href="#" class="c-sidebar__menu__item">Персональный раздел</a></li>
-							<li><a href="#" class="c-sidebar__menu__item">Авторизация</a></li>
-							<li><a href="#" class="c-sidebar__menu__item">Корзина</a></li>
-							<li><a href="#" class="c-sidebar__menu__item">Оплата</a></li>
-							<li><a href="#" class="c-sidebar__menu__item">Доставка</a></li>
-							<li><a href="#" class="c-sidebar__menu__item">О магазине</a></li>
-							<li><a href="#" class="c-sidebar__menu__item">Контакты</a></li>
-						</ul>
-
+						<nav>
+							<ul class="c-sidebar__menu">
+								<li><a href="#" class="c-sidebar__menu__item">Персональный раздел</a></li>
+								<li><a href="#" class="c-sidebar__menu__item">Авторизация</a></li>
+								<li><a href="#" class="c-sidebar__menu__item">Корзина</a></li>
+								<li><a href="#" class="c-sidebar__menu__item">Оплата</a></li>
+								<li><a href="#" class="c-sidebar__menu__item">Доставка</a></li>
+								<li><a href="#" class="c-sidebar__menu__item">О магазине</a></li>
+								<li><a href="#" class="c-sidebar__menu__item">Контакты</a></li>
+							</ul>
+						</nav>
 						<div class="c-sidebar__sale">
 							<div class="c-sidebar__sale__item">
 								<div class="c-sidebar__sale__item__sticker">Успей купить</div>
@@ -330,12 +331,12 @@
 		</section>
 
 		<section class="c-seo">
-			<div class="container">
-				SEO блок.<br>
+			<article class="container">
+				SEO блок.<br />
 				Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты). Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
 
 				<div class="c-seo-hider"></div>
-			</div>
+			</article>
 		</section>
 	</main>
 
@@ -348,16 +349,18 @@
 							<h3 class="c-footer__block__title">
 								НАШИ ТОВАРЫ
 							</h3>
-							<ul class="c-footer__block__list">
-								<li><a href="#">Кровельные материалы</a></li>
-								<li><a href="#">Строительные материалы</a></li>
-								<li><a href="#">Теплоизоляция</a></li>
-								<li><a href="#">Отделочные материалы</a></li>
-								<li><a href="#">Напольные покрытия</a></li>
-								<li><a href="#">Сантехника</a></li>
-								<li><a href="#">Двери</a></li>
-								<li><a href="#">Керамическая плитка</a></li>
-							</ul>
+							<nav>
+								<ul class="c-footer__block__list">
+									<li><a href="#">Кровельные материалы</a></li>
+									<li><a href="#">Строительные материалы</a></li>
+									<li><a href="#">Теплоизоляция</a></li>
+									<li><a href="#">Отделочные материалы</a></li>
+									<li><a href="#">Напольные покрытия</a></li>
+									<li><a href="#">Сантехника</a></li>
+									<li><a href="#">Двери</a></li>
+									<li><a href="#">Керамическая плитка</a></li>
+								</ul>
+							</nav>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -365,35 +368,38 @@
 							<h3 class="c-footer__block__title">
 								ПОЛЕЗНАЯ ИНФОРМАЦИЯ
 							</h3>
-							<ul class="c-footer__block__list">
-								<li><a href="#">Персональный раздел</a></li>
-								<li><a href="#">Авторизация</a></li>
-								<li><a href="#">Корзина</a></li>
-								<li><a href="#">Оплата</a></li>
-								<li><a href="#">Доставка</a></li>
-								<li><a href="#">О магазине</a></li>
-								<li><a href="#">Контакты</a></li>
-							</ul>
+							<nav>
+								<ul class="c-footer__block__list">
+									<li><a href="#">Персональный раздел</a></li>
+									<li><a href="#">Авторизация</a></li>
+									<li><a href="#">Корзина</a></li>
+									<li><a href="#">Оплата</a></li>
+									<li><a href="#">Доставка</a></li>
+									<li><a href="#">О магазине</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</nav>
 						</div>
 					</div>
 					<div class="col-lg-4 hidden-md hidden-sm col-xs-12">
 						<div class="c-footer__block">
-							<h3 class="c-footer__block__title">
-								КОНТАКТЫ:
-							</h3>
-							<ul class="c-footer__block__list">
-								<li><a class="icon kyivstar" href="#">+38(067)208-75-36</a></li>
-								<li><a class="icon vodafon" href="#">+38(050)208-75-36</a></li>
-								<li><a class="icon lifecell" href="#">+38(073)208-75-36</a></li>
-								<li>
+							<adress>
+								<h3 class="c-footer__block__title">
+									КОНТАКТЫ:
+								</h3>
+								<ul class="c-footer__block__list">
+									<li><a class="icon kyivstar" href="#">+38(067)208-75-36</a></li>
+									<li><a class="icon vodafon" href="#">+38(050)208-75-36</a></li>
+									<li><a class="icon lifecell" href="#">+38(073)208-75-36</a></li>
+									<li>
 									<span class="icon marker">
 										г. Днепр, проспект Александра<br>
 										Поля (пр. Кирова), 33<br>
 										<a class="mailto" href="mailto:info@rems.com.ua">info@rems.com.ua</a>
 									</span>
-
-								</li>
-							</ul>
+									</li>
+								</ul>
+							</adress>
 						</div>
 					</div>
 				</div>
