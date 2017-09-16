@@ -6,26 +6,11 @@ Main Components
 
 
 .cd-dropdown-wrapper {
-  display: inline-block;
-  position: relative;
-  height: 40px;
-  margin: 30px 0 0 5%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.cd-dropdown-trigger {
   display: block;
   position: relative;
-  padding: 0 36px 0 20px;
-  line-height: 40px;
-  background-color: #111433;
-  color: #ffffff;
-  border-radius: 3px;
 }
-.no-touch .cd-dropdown-trigger:hover {
-  background-color: #171b46;
-}
+
+
 .cd-dropdown-trigger::before, .cd-dropdown-trigger::after {
   /* this is the arrow inside the dropdown trigger*/
   content: '';
@@ -60,12 +45,6 @@ Main Components
 @media only screen and (min-width: 1024px) {
   .cd-dropdown-trigger {
     font-size: 1.5rem;
-  }
-  .cd-dropdown-trigger.dropdown-is-active {
-    background-color: #3f8654;
-  }
-  .no-touch .cd-dropdown-trigger.dropdown-is-active:hover {
-    background-color: #47975f;
   }
   .cd-dropdown-trigger.dropdown-is-active::before, .cd-dropdown-trigger.dropdown-is-active::after {
     /* transform the arrow into a 'X' */
@@ -427,47 +406,47 @@ Main Components
   background-size: 40px 40px;
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-1::before {
-  background-image: url("../img/nucleo-icon-1.svg");
+  background-image: url("../img/mega/nucleo-icon-1.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-2::before {
-  background-image: url("../img/nucleo-icon-2.svg");
+  background-image: url("../img/mega/nucleo-icon-2.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-3::before {
-  background-image: url("../img/nucleo-icon-3.svg");
+  background-image: url("../img/mega/nucleo-icon-3.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-4::before {
-  background-image: url("../img/nucleo-icon-4.svg");
+  background-image: url("../img/mega/nucleo-icon-4.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-5::before {
-  background-image: url("../img/nucleo-icon-5.svg");
+  background-image: url("../img/mega/nucleo-icon-5.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-6::before {
-  background-image: url("../img/nucleo-icon-6.svg");
+  background-image: url("../img/mega/nucleo-icon-6.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-7::before {
-  background-image: url("../img/nucleo-icon-7.svg");
+  background-image: url("../img/mega/nucleo-icon-7.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-8::before {
-  background-image: url("../img/nucleo-icon-8.svg");
+  background-image: url("../img/mega/nucleo-icon-8.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-9::before {
-  background-image: url("../img/nucleo-icon-9.svg");
+  background-image: url("../img/mega/nucleo-icon-9.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-10::before {
-  background-image: url("../img/nucleo-icon-10.svg");
+  background-image: url("../img/mega/nucleo-icon-10.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-11::before {
-  background-image: url("../img/nucleo-icon-11.svg");
+  background-image: url("../img/mega/nucleo-icon-11.svg");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-12::before {
-  background-image: url("../img/nucleo-icon-12.svg");
+  background-image: url("../img/mega/nucleo-icon-12.svg");
 }
 @media only screen and (min-width: 1024px) {
   .cd-dropdown-content {
     /* reset mobile style */
     position: static;
     height: auto;
-    width: 280px;
+    width: 262px;
   }
   .cd-dropdown-content > li:last-of-type a {
     border-bottom: none;

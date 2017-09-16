@@ -68,7 +68,8 @@ a:hover, a:focus
 	max-width: 100%
 	height: auto
 
-
+.text-center
+	text-align: center
 
 // --------------   header	--------------------------
 .c-header
@@ -150,7 +151,7 @@ a:hover, a:focus
 
 
 .c-block__social_inline
-	margin: 0
+	margin-left: 20px
 
 .c-block__social_inline li
 	display: inline-block
@@ -197,7 +198,7 @@ a:hover, a:focus
 	color: #fff
 	text-transform: uppercase
 	font: normal 22px SegoeUI
-	padding: 8px 0
+	padding: 8px 12px 8px 0
 
 .c-header-bottom .icon.arrow
 	height: 15px
@@ -345,6 +346,7 @@ a:hover, a:focus
 	padding: 5px 0
 	background-color: $main
 	border-radius: 3px
+	margin-top: 15px
 
 	li
 		padding: 5px 20px
@@ -390,9 +392,120 @@ a:hover, a:focus
 
 .c-carousel .c-carousel__title
 	text-align: center
-	margin-top: 0
+	margin-top: 5px
 	font: 100 36px SegoeUI
 
+.c-carousel__wrap
+	padding: 0 60px
+	margin-bottom: 30px
+
+.slick-slide
+	margin: 0px 10px
+
+
+.slick-slide img
+	width: 100%
+
+.slick-next
+	right: 0
+
+.slick-prev
+	left: 0
+
+.slick-next, .slick-prev
+	background: $main-dark
+	height: 100%
+	width: 50px
+
+.slick-next:hover, .slick-prev:hover
+	background: $main-dark
+	opacity: .8
+
+.slick-next:focus, .slick-prev:focus
+	background: $main-dark
+
+.slick-prev:before,
+.slick-next:before
+	color: black
+	content: ''
+
+.slick-prev:before
+	background: url(../img/arrow_sm_header.svg) no-repeat
+	height: 20px
+	width: 35px
+	display: inline-block
+	transform: rotate(90deg)
+	background-size: 35px
+
+
+.slick-next:before
+	background: url(../img/arrow_sm_header.svg) no-repeat
+	height: 20px
+	width: 35px
+	display: inline-block
+	transform: rotate(-90deg)
+	background-size: 35px
+
+.slick-slide
+	transition: all ease-in-out .3s
+	opacity: .2
+
+
+.slick-active
+	opacity: 1
+
+.slick-current
+	opacity: 1
+
+// --------------  component catalog product	----
+.c-catalog__product
+	position: relative
+	border-radius: 3px
+	border: 1px solid #d8ccae
+	padding: 20px
+
+	.c-catalog__product__img
+		max-width: 160px
+		margin: 0 auto
+
+	.c-catalog__product__title
+		display: inline-block
+		font: 100 22px SegoeUI
+		margin-top: 10px
+
+	.c-catalog__product__code
+		display: inline-block
+		text-align: center
+		font: 100 18px SegoeUI
+		margin-top: 10px
+
+	.c-catalog__product__price
+		margin-top: 10px
+
+		.c-catalog__product__btn
+			display: inline-block
+			margin-top: 15px
+			border-radius: 3px
+			background-color: #a71c49
+			border-color: #a71c49
+			-webkit-box-shadow: none
+			box-shadow: none
+			color: #fff
+			text-transform: uppercase
+			font: normal 22px SegoeUI
+			padding: 8px 25px
+		
+		.c-catalog__product__price__old
+			float: left
+			font-size: 23px
+			text-decoration: line-through
+
+		.c-catalog__product__price__new
+			float: right
+			font: bold 28px SegoeUI
+
+			.c-catalog__product__price__currency
+				font-size: 18px
 
 .c-catalog-desktop__item
   display: inline-block

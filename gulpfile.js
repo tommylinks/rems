@@ -31,6 +31,7 @@ gulp.task('js', ['common-js'], function() {
         'app/libs/bootstrap/bootstrap.js',
         'app/libs/mega-dropdown/js/jquery.menu-aim.js',
         'app/libs/mega-dropdown/js/modernizr.js',
+        'app/libs/slick-slider/slick.js',
         'app/libs/mega-dropdown/js/main.js',
 		'app/js/common.min.js', // Всегда в конце
 		])
