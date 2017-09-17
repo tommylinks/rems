@@ -385,6 +385,24 @@ a:hover, a:focus
 	margin-left: 10px
 	width: 18%
 
+// --------------   bread-crumbs	---------
+.c-bread-crumbs
+  border-bottom: 2px solid $main
+
+  .c-bread-crumbs__item:first-child
+    border-left: 2px solid $main
+
+  .c-bread-crumbs__item:last-child .c-bread-crumbs__item__link
+    color: #c4c4c4
+
+  .c-bread-crumbs__item
+    display: inline-block
+    padding: 15px
+    border-right: 2px solid $main
+
+  .c-bread-crumbs__item__link
+    font: 100 24px SegoeUI
+
 // --------------   main	--------------------------
 .c-main
 	min-height: 400px
