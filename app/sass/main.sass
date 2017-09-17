@@ -388,6 +388,7 @@ a:hover, a:focus
 // --------------   bread-crumbs	---------
 .c-bread-crumbs
   border-bottom: 2px solid $main
+  border-top: 2px solid $main
 
   .c-bread-crumbs__item:first-child
     border-left: 2px solid $main
@@ -402,6 +403,13 @@ a:hover, a:focus
 
   .c-bread-crumbs__item__link
     font: 100 24px SegoeUI
+
+.c-bread-crumbs.c-bread-crumbs_desktop
+  margin-top: 15px
+  border-right: 2px solid $main
+
+  .c-bread-crumbs__item
+    padding: 5px 15px
 
 // --------------   main	--------------------------
 .c-main
@@ -524,6 +532,10 @@ a:hover, a:focus
 
 .slick-current
 	opacity: 1
+
+// --------------  component catalog list	----
+.c-catalog__product
+    margin: 15px 0
 
 // --------------  component catalog product	----
 .c-catalog__product
