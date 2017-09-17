@@ -122,6 +122,9 @@ a:hover, a:focus
 	background: url('../img/auth_header.svg') no-repeat left bottom
 	background-size: 21px
 
+.c-header__block__phone
+	margin-bottom: 10px
+
 .c-header__block__phone .align-top
 	vertical-align: top
 
@@ -129,26 +132,49 @@ a:hover, a:focus
 	background: url('../img/ks_logo_header.svg') no-repeat left center
 	background-size: 30px
 
+.c-header__block__phone.icon.vodafon
+	background: url('../img/Vodafone.svg') no-repeat left center
+	background-size: 30px
+
+.c-header__block__phone.icon.lifecell
+	background: url('../img/lifecell.svg') no-repeat left center
+	background-size: 30px
+
 .c-header__block__title
 	margin-left: 28px
 	font: bold 18px SegoeUI
 	border-bottom: 2px dotted $accent
 
+.c-header__block__dropdown
+	display: inline-block
+	position: relative
+	background-color: $main
+	padding: 0px 10px 0px 10px
+
 .c-header__block__phone__title
 	position: relative
-	margin: 0 20px 0 30px
+	margin-left: 30px
 	font-size: 23px
 
-
-.c-header__block__phone__title:after
-	content: ''
-	position: absolute
-	right: -30px
-	top: 13px
+.c-header__block__dropdown .caret-down
 	width: 21px
-	height: 21px
+	height: 13px
 	background: url('../img/arrow_sm_header.svg') no-repeat
 
+.c-header__block__phone__group
+	position: absolute
+	left: 0px
+	top: 100%
+	padding: 0px 10px 5px 10px
+	text-align: left
+	opacity: 1
+	transition: .5s
+	background-color: $main
+	z-index: 10
+
+.c-header__block__phone__group.hide
+	opacity: 0
+	display: none
 
 .c-block__social_inline
 	margin-left: 20px
@@ -229,7 +255,7 @@ a:hover, a:focus
 
 .c-header-bottom__cart_info
 	margin-right: 10px
-	
+
 .c-header-bottom__cart_icon, .c-header-bottom__cart_info
 	float: right
 
@@ -479,22 +505,22 @@ a:hover, a:focus
 		font: 100 18px SegoeUI
 		margin-top: 10px
 
+	.c-catalog__product__btn
+		display: inline-block
+		margin-top: 15px
+		border-radius: 3px
+		background-color: #a71c49
+		border-color: #a71c49
+		-webkit-box-shadow: none
+		box-shadow: none
+		color: #fff
+		text-transform: uppercase
+		font: normal 22px SegoeUI
+		padding: 8px 25px
+
 	.c-catalog__product__price
 		margin-top: 10px
 
-		.c-catalog__product__btn
-			display: inline-block
-			margin-top: 15px
-			border-radius: 3px
-			background-color: #a71c49
-			border-color: #a71c49
-			-webkit-box-shadow: none
-			box-shadow: none
-			color: #fff
-			text-transform: uppercase
-			font: normal 22px SegoeUI
-			padding: 8px 25px
-		
 		.c-catalog__product__price__old
 			float: left
 			font-size: 23px
@@ -578,6 +604,7 @@ a:hover, a:focus
 	background: #d8ccae
 
 .panel-default>.panel-heading
+	position: relative
 	background: $main-dark
 
 
@@ -588,9 +615,19 @@ a:hover, a:focus
 .panel-default
 	border-color: $main-dark
 
-.panel-default>.panel-heading+.panel-collapse>.panel-body
-	border: none
+.panel-collapse.collapse.in
 	background: $main
+
+.panel-default .panel-title-text
+	font-size: 18px
+	text-transform: uppercase
+	padding-left: 50px
+
+.panel-title svg
+	position: absolute
+	left: 10px
+	height: 30px
+	fill: $accent
 
 .c-seo.show-all
     height: 100%

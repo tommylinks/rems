@@ -16,6 +16,14 @@ $(function() {
 
 
 
+
+    $(".c-header__block__dropdown .caret-down").click(function() {
+
+            $(".c-header__block__phone__group").toggleClass('hide'); // fadeIn - плавное появление
+
+        });
+
+    // slider init
     $(document).ready(function(){
         $('.c-carousel__wrap').slick({
             dots: false,
