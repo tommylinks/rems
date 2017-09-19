@@ -533,6 +533,99 @@ a:hover, a:focus
 .slick-current
 	opacity: 1
 
+.c-title
+	font: 100 36px SegoeUI
+	margin: 10px 0
+
+// --------------  component sub catalog	----
+
+.c-sub-catalog
+	margin-top: 30px
+
+.c-sub-catalog__item
+	margin-bottom: 20px
+
+	.c-sub-catalog__item__title
+		font: normal 18px SegoeUI
+
+	.c-sub-catalog__item__text
+		font: 100 14px SegoeUI
+
+
+	.c-sub-catalog__item__info
+
+
+// --------------  component sort anf filter	----
+
+.c-filter-desktop
+	margin-top: 30px
+	text-align: right
+
+	label
+		text-transform: uppercase
+		margin-right: 20px
+
+
+.c-filter-desktop__sort
+	display: inline-block
+
+.c-filter-desktop__sort__select
+	padding: 3px
+	border: 1px solid $main
+	border-radius: 3px
+	font-weight: 100
+
+.c-filter-desktop__filter
+	display: inline-block
+	position: relative
+	padding-right: 35px
+	margin-left: 30px
+
+.c-filter-desktop__filter .filter
+	position: absolute
+	right: 0
+	top: -5px
+	width: 35px
+	height: 35px
+	background: url(../img/filter_icon.svg) no-repeat
+	background-size: cover
+
+.c-filter-mobile
+	position: fixed
+	right: 30px
+	bottom: 50px
+	padding: 15px
+	background-color: $accent
+	border-radius: 50%
+	z-index: 11
+
+.c-filter-mobile .icon.filter
+	width: 35px
+	height: 35px
+	background: url(../img/filter_icon-wh.svg) no-repeat
+	background-size: cover
+
+// --------------  component c-pagination	----
+.c-pagination
+	text-align: center
+	margin: 20px 0
+
+	.c-pagination__item
+		display: inline-block
+		margin: 5px 3px
+
+		.c-pagination__link
+			padding: 5px 15px
+			background: $main-dark
+			border-radius: 3px
+
+	.c-pagination__item.active .c-pagination__link
+		background: $accent
+		color: #fff
+
+
+
+
 // --------------  component catalog list	----
 .c-catalog-list
   .c-catalog__product
