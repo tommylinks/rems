@@ -18,10 +18,16 @@ $(function() {
 
 
     $(".c-header__block__dropdown .caret-down").click(function() {
-
             $(".c-header__block__phone__group").toggleClass('hide'); // fadeIn - плавное появление
+    });
 
-        });
+
+
+    // responsiveTabs init
+    $('#responsiveTabs').responsiveTabs({
+        startCollapsed: 'accordion'
+    });
+
 
     // slider init
     $(document).ready(function(){
