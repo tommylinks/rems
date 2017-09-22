@@ -245,6 +245,9 @@ a:hover, a:focus
 	margin-left: 10px
 	width: 25%
 
+.c-header-bottom__search__btn:hover
+	opacity: .9
+
 .c-header-bottom__search__input
 	padding: 8px 10px
 	font: normal 22px SegoeUI
@@ -666,6 +669,9 @@ a:hover, a:focus
 		font: normal 22px SegoeUI
 		padding: 8px 25px
 
+	.c-catalog__product__btn:hover
+		opacity: .9
+
 	.c-catalog__product__price
 		margin-top: 10px
 
@@ -767,19 +773,45 @@ a:hover, a:focus
 	margin-top: 20px
 	text-align: right
 
+
+	.c-detail__buy__group
+		position: relative
+		display: inline-block
+		margin-right: 50px
+		text-align: center
+
 	.c-detail__buy__input
 		text-align: center
-		width: 60px
-		margin-right: 30px
+		width: 80px
 		font: normal 22px SegoeUI
 		display: inline-block
-		padding: 8px
+		padding: 5px
+		border: 2px solid $main-dark
 
+
+	.c-detail__buy__group__minus
+		position: absolute
+		padding: 5px 8px
+		font: normal 22px SegoeUI
+		left: -21px
+		top: 0
+		background-color: $main-dark
+		border: 2px solid $main-dark
+		border-radius: 3px 0px 0px 3px
+
+	.c-detail__buy__group__plus
+		position: absolute
+		padding: 5px
+		font: normal 22px SegoeUI
+		right: -23px
+		top: 0
+		background-color: $main-dark
+		border: 2px solid $main-dark
+		border-radius: 0px 3px 3px 0px
 
 	.c-detail__buy__btn
 		display: inline-block
 		border-radius: 3px
-		border: 2px solid
 		background-color: #a71c49
 		border-color: #a71c49
 		-webkit-box-shadow: none
@@ -787,7 +819,10 @@ a:hover, a:focus
 		color: #fff
 		text-transform: uppercase
 		font: normal 22px SegoeUI
-		padding: 8px 25px
+		padding: 5px 25px
+
+	.c-detail__buy__btn:hover
+		opacity: .9
 
 .c-detail__preview
 	margin-top: 20px
@@ -812,6 +847,9 @@ a:hover, a:focus
 	padding: 5px 15px
 	border-right: 1px solid #fff
 	font-size: 24px
+
+.r-tabs-tab.r-tabs-state-active
+	background-color: $main
 
 .r-tabs-tab.r-tabs-state-active:after
 	content: ''
