@@ -149,7 +149,7 @@ a:hover, a:focus
 	display: inline-block
 	position: relative
 	background-color: $main
-	padding: 0px 10px 0px 10px
+	padding: 0 10px
 
 .c-header__block__phone__title
 	position: relative
@@ -163,9 +163,9 @@ a:hover, a:focus
 
 .c-header__block__phone__group
 	position: absolute
-	left: 0px
+	left: 0
 	top: 100%
-	padding: 0px 10px 5px 10px
+	padding: 0 10px 5px 10px
 	text-align: left
 	opacity: 1
 	transition: .5s
@@ -219,12 +219,15 @@ a:hover, a:focus
 	width: 100%
 	border-radius: 3px
 	background-color: $accent
-	border-color: $accent
+	border: 2px solid $accent
 	box-shadow: none
 	color: #fff
 	text-transform: uppercase
 	font: normal 22px SegoeUI
 	padding: 8px 12px 8px 0
+
+.c-header-bottom__cat-btn:hover
+	opacity: .9
 
 .c-header-bottom .icon.arrow
 	height: 15px
@@ -236,7 +239,7 @@ a:hover, a:focus
 .c-header-bottom__search__btn
 	border-radius: 3px
 	background-color: $accent
-	border-color: $accent
+	border: 2px solid $accent
 	box-shadow: none
 	color: #fff
 	text-transform: uppercase
@@ -284,9 +287,9 @@ a:hover, a:focus
 	top: -6px
 	line-height: 20px
 	color: #fff
-	padding: 0 5px
+	padding: 0 7px 2px 7px
 	background: $accent
-	border-radius: 3px
+	border-radius: 11px
 	max-width: 100px
 
 
@@ -302,7 +305,7 @@ a:hover, a:focus
 	width: 44px
 	border-radius: 3px
 	background-color: $accent
-	border-color: $accent
+	border: 2px solid $accent
 	padding: 5px
 	float: left
 
@@ -357,10 +360,10 @@ a:hover, a:focus
 	top: -6px
 	line-height: 20px
 	color: #fff
-	padding: 0 5px
+	padding: 0 7px 2px 7px
 	background: #a71c49
-	-webkit-border-radius: 3px
-	border-radius: 3px
+	-webkit-border-radius: 11px
+	border-radius: 11px
 	max-width: 100px
 
 // --------------   c-header-search-mobile	--------------------------
@@ -379,7 +382,7 @@ a:hover, a:focus
 .c-header-search-mobile__btn
 	border-radius: 3px
 	background-color: $accent
-	border-color: $accent
+	border: 2px solid $accent
 	box-shadow: none
 	color: #fff
 	text-transform: uppercase
@@ -479,7 +482,7 @@ a:hover, a:focus
 	margin-bottom: 30px
 
 .slick-slide
-	margin: 0px 10px
+	margin: 0 10px
 
 
 .slick-slide img
@@ -659,8 +662,8 @@ a:hover, a:focus
 		display: inline-block
 		margin-top: 15px
 		border-radius: 3px
-		background-color: #a71c49
-		border-color: #a71c49
+		background-color: $accent
+		border: 2px solid $accent
 		-webkit-box-shadow: none
 		box-shadow: none
 		color: #fff
@@ -796,7 +799,7 @@ a:hover, a:focus
 		top: 0
 		background-color: $main-dark
 		border: 2px solid $main-dark
-		border-radius: 3px 0px 0px 3px
+		border-radius: 3px 0 0 3px
 
 	.c-detail__buy__group__plus
 		position: absolute
@@ -806,13 +809,13 @@ a:hover, a:focus
 		top: 0
 		background-color: $main-dark
 		border: 2px solid $main-dark
-		border-radius: 0px 3px 3px 0px
+		border-radius: 0 3px 3px 0
 
 	.c-detail__buy__btn
 		display: inline-block
 		border-radius: 3px
-		background-color: #a71c49
-		border-color: #a71c49
+		background-color: $accent
+		border: 2px solid $accent
 		-webkit-box-shadow: none
 		box-shadow: none
 		color: #fff
